@@ -65,16 +65,15 @@ Pythonは、その多用途性、簡潔な構文、強力なライブラリの�
 - [再帰を使用しないシェルソート](./python_non_recursive_shell_sort/README.md)
 
 ## 応用
-- [リンクドリスト](./python_list_package/README.md)
+- [リングバッファ](./python_ring_buffer_package/README.md)
 - [キュー](./python_queue_package/README.md)
-- [スタック](./python_stack_package/README.md)
-- [平衡二分木](./python_balanced_tree_package/README.md)
 - [ハッシュテーブル](./python_hash_table_package/README.md)
 - [ソート](./python_sort_package/README.md)
 - [スレッド](./python_threading_example/README.md)
 - [Async/Await](./python_async_await_example/README.md)
 - [排他処理](./python_mutex_example/README.md)
 - [メッセージボックス](./python_message_box_example/README.md)
+- [メッセージキュー](./python_message_queue_example/README.md)
 
 ## エコシステム
 - [パッケージをインストールして使用する](./python_install_package/README.md)
