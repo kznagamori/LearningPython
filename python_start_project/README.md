@@ -18,7 +18,7 @@ Pythonの仮想環境を作成し、アクティベートします。
 ```powershell
 python -m venv venv --without-pip
 venv\Scripts\Activate
-python -m ensurepip --upgrade
+python -m ensurepip --upgrade --default-pip
 python -m pip install --upgrade pip
 ```
 
@@ -26,7 +26,7 @@ python -m pip install --upgrade pip
 ```bash
 python -m venv venv --without-pip
 source venv/bin/activate
-python -m ensurepip --upgrade
+python -m ensurepip --upgrade --default-pip
 python -m pip install --upgrade pip
 ```
 以後、プロジェクトを使用する場合は仮想環境の `Activate` を行う必要があります。
